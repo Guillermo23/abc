@@ -9,7 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+        <link rel="stylesheet" href="css/styles.min.css">
         <!-- Styles -->
         <style>
             html, body {
@@ -79,7 +79,29 @@
 
             <div class="content">
                 <div class="title m-b-md">
+                    <i class="fab fa-earlybirds"></i>
                     Laravel
+                    <button type="button" class="btn btn-primary bmd-btn-fab">
+                      <i class="material-icons">grade</i>
+                    </button>
+                    <button type="button" class="btn btn-secondary bmd-btn-fab">
+                      <i class="material-icons">grade</i>
+                    </button>
+                    <button type="button" class="btn btn-success bmd-btn-fab">
+                      <i class="material-icons">grade</i>
+                    </button>
+                    <button type="button" class="btn btn-info bmd-btn-fab">
+                      <i class="material-icons">grade</i>
+                    </button>
+                    <button type="button" class="btn btn-warning bmd-btn-fab">
+                      <i class="material-icons">grade</i>
+                    </button>
+                    <button type="button" class="btn btn-danger bmd-btn-fab">
+                      <i class="material-icons">grade</i>
+                    </button>
+                    <button type="button" class="btn btn-danger bmd-btn-fab active">
+                      <i class="material-icons">grade</i>
+                    </button>
                 </div>
 
                 <div class="links">
@@ -91,5 +113,6 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

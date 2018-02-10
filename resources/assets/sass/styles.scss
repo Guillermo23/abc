@@ -1,0 +1,21 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+@import 'base/typography';
+@import 'base/colors';
+@import 'base/classes';
+@import 'base/buttons';
+@import 'base/icons';
+@import 'base/mixins';
+
+@import 'components/footer';
+@import 'components/navbar';
+@import 'components/carousel';

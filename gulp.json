@@ -1,0 +1,52 @@
+{
+    "app": {
+      "html":{
+          "plantillas":[
+            "./public/**/*.html"
+          ]
+      },
+      "javascripts": {
+        "paths": [
+          "./node_modules/jquery/dist/jquery.js",
+          "./node_modules/tether/dist/js/tether.min.js",
+          "./resources/assets/js/components/popper.js",
+          "./resources/assets/js/components/fontawesome.js",
+          "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+          "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+          "./node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.js",
+          "./resources/assets/js/**/*.js"
+          ],
+        "pathJsApp": [
+        ],
+        "dest": "./public/js"
+      },
+      "stylesheets": {
+        "path": [
+          "./node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.css",
+          "./node_modules/bootstrap-material-design-icons/css/material-icons.css"
+        ],
+        "pathCssApp":[
+          "./resources/assets/sass/styles.scss"
+        ],
+        "pathCssWatch":[
+          "./resources/assets/sass/**/*.scss"
+        ],
+        "dest": "./public/css"
+      },
+      "img": {
+        "src": [
+          "./resources/assets/images/**/*.*"
+        ],
+        "dest": "./public/images"
+      },
+      "fonts": {
+        "pathFontsApp":[
+          "./resources/assets/fonts/**/*.*"
+        ],
+        "paths": [
+          "./node_modules/bootstrap-material-design-icons/fonts/*"
+        ],
+        "dest": "./public/fonts"
+      }
+    }
+  }
